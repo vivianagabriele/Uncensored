@@ -10,7 +10,7 @@ import BriefingCard from '../components/BriefingCard';
 import AskBar from '../components/AskBar';
 import { fetchTrends, fetchBriefing } from '../api/perplexity';
 import { simpleCache } from '../utils/cache';
-import { colors, radius, font } from '../theme';
+import { colors, radius, font } from '../../theme';
 
 const DEFAULT = COUNTRIES[0];
 

@@ -3,7 +3,7 @@
 
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { colors, radius, font } from '../theme';
+import { colors, radius, font } from '../../theme';
 
 function parseBold(text) {
   if (!text) return null;

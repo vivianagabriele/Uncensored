@@ -1,7 +1,7 @@
 // src/components/CountryPicker.js
 import React from 'react';
 import { ScrollView, TouchableOpacity, Text, StyleSheet, View } from 'react-native';
-import { colors, radius, font } from '../theme';
+import { colors, radius, font } from '../../theme';
 
 export const COUNTRIES = [
   { code: 'US', name: 'United States', flag: '🇺🇸' },

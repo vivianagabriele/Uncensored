@@ -2,7 +2,7 @@
 // Generates and persists a playful anonymous identity for the session.
 // No accounts, no tracking — just a fun throwaway name per install.
 
-import { colors } from '../theme';
+import { colors } from '../../theme';
 
 const ADJECTIVES = [
   'Free','Open','Bold','Clear','True','Sharp','Keen','Brave','Wise','Calm',

@@ -6,7 +6,7 @@ import {
   View, Text, TextInput, TouchableOpacity,
   ScrollView, StyleSheet, ActivityIndicator,
 } from 'react-native';
-import { colors, radius, font } from '../theme';
+import { colors, radius, font } from '../../theme';
 import { askQuestion } from '../api/perplexity';
 
 const QUICK_CHIPS = [

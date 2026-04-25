@@ -7,7 +7,7 @@ import {
   View, Text, TouchableOpacity, StyleSheet,
   ActivityIndicator, TextInput, ScrollView,
 } from 'react-native';
-import { colors, radius, font } from '../theme';
+import { colors, radius, font } from '../../theme';
 import { fetchStoryDetail } from '../api/perplexity';
 import { getIdentity } from '../utils/identity';
 
@@ -46,7 +46,7 @@ function Avatar({ initials, avatar, size = 28 }) {
 }
 
 const SEED_COMMENTS = [
-  { name: 'OpenEye_34', initials: 'OE', avatar: colors.avatars[0], text: 'wild that this is still happening and nobody's talking about it 😶', time: '2h ago' },
+  { name: 'OpenEye_34', initials: 'OE', avatar: colors.avatars[0], text: 'wild that this is still happening and nobody\'s talking about it', time: '2h ago' },
   { name: 'BoldPress_77', initials: 'BP', avatar: colors.avatars[3], text: 'been following this for weeks — it\'s way bigger than the headlines say', time: '4h ago' },
 ];
 
